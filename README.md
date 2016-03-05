@@ -13,4 +13,10 @@
 sh alwaysAlive.sh [firstProcess] [secondProcess]...
 ```
 
+For example, if you want to monitor the nginx and php-fpm service, then just enter the command:
+
+```
+sh alwaysAlive.sh nginx php-fpm...
+```
+
 No input will return an error.
