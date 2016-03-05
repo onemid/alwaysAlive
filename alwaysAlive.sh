@@ -23,4 +23,4 @@ echo "-------------------------------"
 
 done
 
-echo "FINISHED THE CHECK ROUTIN
+echo "FINISHED THE CHECK ROUTINE"
