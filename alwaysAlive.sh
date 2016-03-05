@@ -4,6 +4,11 @@
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
 
+if [ $# == 0 ]; then
+    echo "Error in your input"
+    exit 1
+fi
+
 for target in "$@"
 do
 
